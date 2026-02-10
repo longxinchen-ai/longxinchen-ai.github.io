@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: longxinchen's Page # the website title (if blank, full name will be used instead)
+title: Longxinchen's Page # the website title (if blank, full name will be used instead)
 first_name: Long
 middle_name: 
 last_name: Xinchen
@@ -187,6 +187,8 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - _news/
+  - _projects/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
