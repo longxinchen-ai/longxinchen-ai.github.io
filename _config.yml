@@ -91,19 +91,19 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: Blog # blog_name will be displayed in your blog page
-#blog_description: a simple whitespace theme for academics
+blog_name: Longxinchen's Blog # blog_name will be displayed in your blog page
+blog_description: 
 blog_nav_title: Blog
-#permalink: /blog/:year/:title/
-#lsi: false # produce an index for related posts
+permalink: /blog/:year/:title/
+lsi: false # produce an index for related posts
 
-## Pagination
-#pagination:
-#  enabled: true
-#
-#related_blog_posts:
-#  enabled: true
-#  max_related: 5
+# Pagination
+pagination:
+ enabled: true
+
+related_blog_posts:
+ enabled: true
+ max_related: 5
 #
 ## Giscus comments (RECOMMENDED)
 ## Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -182,76 +182,11 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-// 亮色模式
---global-theme-color: #{v.$blue-color};
 
-// 暗色模式
---global-theme-color: #{v.$blue-color};// 亮色模式
---global-theme-color: #{v.$blue-color};
-
-// 暗色模式
---global-theme-color: #{v.$blue-color};
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
-  - _news/
-  - _projects/collections:
-  # 移除以下配置
-  # books:
-  #   output: false
-  news:
-    defaults:
-      layout: post
-    output: false
-  projects:
-    output: false
-  teachings:
-    output: falsecollections:
-  # 移除以下配置
-  # books:
-  #   output: false
-  news:
-    defaults:
-      layout: post
-    output: false
-  projects:
-    output: false
-  teachings:
-    output: falsecollections:
-  # 移除以下配置
-  # books:
-  #   output: false
-  news:
-    defaults:
-      layout: post
-    output: false
-  projects:
-    output: false
-  teachings:
-    output: falsecollections:
-  # 移除以下配置
-  # books:
-  #   output: false
-  news:
-    defaults:
-      layout: post
-    output: false
-  projects:
-    output: false
-  teachings:
-    output: falsecollections:
-  # 移除以下配置
-  # books:
-  #   output: false
-  news:
-    defaults:
-      layout: post
-    output: false
-  projects:
-    output: false
-  teachings:
-    output: false
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
