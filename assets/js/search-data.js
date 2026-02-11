@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-一图串讲grpo十几种主流变体算法",
+        },{id: "post-一张表讲清楚llm-rl中kl散度的正确与错误用法",
+        
+          title: "一张表讲清楚LLM-RL中KL散度的正确与错误用法",
+        
+        description: "一张表讲清楚LLM-RL中KL散度的正确与错误用法",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/KL-Reg-zh/";
+          
+        },
+      },{id: "post-一图串讲grpo十几种主流变体算法",
         
           title: "一图串讲GRPO十几种主流变体算法",
         
