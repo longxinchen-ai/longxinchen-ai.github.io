@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Reinforcement Learning, Multi-agent System, Language Model, AI, Machine Learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: prof_pic_icon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://longxinchen-ai.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -182,13 +182,76 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+// 亮色模式
+--global-theme-color: #{v.$blue-color};
 
+// 暗色模式
+--global-theme-color: #{v.$blue-color};// 亮色模式
+--global-theme-color: #{v.$blue-color};
+
+// 暗色模式
+--global-theme-color: #{v.$blue-color};
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - _news/
-  - _projects/
+  - _projects/collections:
+  # 移除以下配置
+  # books:
+  #   output: false
+  news:
+    defaults:
+      layout: post
+    output: false
+  projects:
+    output: false
+  teachings:
+    output: falsecollections:
+  # 移除以下配置
+  # books:
+  #   output: false
+  news:
+    defaults:
+      layout: post
+    output: false
+  projects:
+    output: false
+  teachings:
+    output: falsecollections:
+  # 移除以下配置
+  # books:
+  #   output: false
+  news:
+    defaults:
+      layout: post
+    output: false
+  projects:
+    output: false
+  teachings:
+    output: falsecollections:
+  # 移除以下配置
+  # books:
+  #   output: false
+  news:
+    defaults:
+      layout: post
+    output: false
+  projects:
+    output: false
+  teachings:
+    output: falsecollections:
+  # 移除以下配置
+  # books:
+  #   output: false
+  news:
+    defaults:
+      layout: post
+    output: false
+  projects:
+    output: false
+  teachings:
+    output: false
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
