@@ -23,11 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-一张表讲清楚llm-rl中kl散度的正确与错误用法",
+        },{id: "post-一张表串讲llm-rl中kl散度正则的正确与错误用法",
         
-          title: "一张表讲清楚LLM-RL中KL散度的正确与错误用法",
+          title: "一张表串讲LLM-RL中KL散度正则的正确与错误用法",
         
-        description: "一张表讲清楚LLM-RL中KL散度的正确与错误用法",
+        description: "一张表串讲LLM-RL中KL散度正则的正确与错误用法",
         section: "Posts",
         handler: () => {
           
