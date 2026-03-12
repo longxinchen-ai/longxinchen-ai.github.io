@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-一张表串讲llm-rl中kl散度正则的正确与错误用法",
+        },{id: "post-llm强化学习中kl正则到底能不能去掉",
+        
+          title: "LLM强化学习中KL正则到底能不能去掉？",
+        
+        description: "LLM强化学习中KL正则到底能不能去掉？",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/KL-Necessity-in-LLM-RL-zh/";
+          
+        },
+      },{id: "post-一张表串讲llm-rl中kl散度正则的正确与错误用法",
         
           title: "一张表串讲LLM-RL中KL散度正则的正确与错误用法",
         
