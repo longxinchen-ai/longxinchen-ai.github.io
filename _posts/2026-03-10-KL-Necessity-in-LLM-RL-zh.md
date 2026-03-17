@@ -13,6 +13,7 @@ categories: reinforcement-learning
     </div>
 </div>
 
+[提示：请对照完整高清图片](https://github.com/longxinchen-ai/longxinchen-ai.github.io/blob/main/assets/img/KL-Necessity.png)
 
 **声明**：为突出重点，部分背景知识已略去，同时涵盖的内容也难免有疏漏之处，还望读者理解。
 

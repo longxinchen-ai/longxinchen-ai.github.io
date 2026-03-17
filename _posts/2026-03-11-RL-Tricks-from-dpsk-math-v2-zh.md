@@ -1,17 +1,19 @@
 ---
 layout: post
-title: dpsk-math-v2的十几种强化学习提分思路
+title: 一张图串讲dpsk-math-v2的十几种强化学习提分思路
 date: 2026-03-12 23:01:00
-description: dpsk-math-v2的十几种强化学习提分思路
+description: 一张图串讲dpsk-math-v2的十几种强化学习提分思路
 categories: reinforcement-learning
 ---
 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dpsk-math-v2-tricks.png" style="max-width: none;" %}
+        {% include figure.liquid loading="eager" path="assets/img/dpsk-math-v2-tricks.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+[提示：请对照完整高清图片](https://github.com/longxinchen-ai/longxinchen-ai.github.io/blob/main/assets/img/dpsk-math-v2-tricks.png)
 
 **声明**：为突出重点，部分背景知识已略去，同时涵盖的内容也难免有疏漏之处，还望读者理解。
 
