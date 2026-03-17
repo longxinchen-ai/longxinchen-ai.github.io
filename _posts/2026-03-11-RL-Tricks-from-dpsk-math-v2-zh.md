@@ -1,15 +1,15 @@
 ---
 layout: post
-title: dpsk-math-v2里的十几种强化学习提分思路
+title: dpsk-math-v2的十几种强化学习提分思路
 date: 2026-03-12 23:01:00
-description: dpsk-math-v2里的十几种强化学习提分思路
+description: dpsk-math-v2的十几种强化学习提分思路
 categories: reinforcement-learning
 ---
 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KL-Necessity.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dpsk-math-v2-tricks.png" style="max-width: none;" %}
     </div>
 </div>
 
