@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-llm强化学习中kl正则到底能不能去掉",
+        },{id: "post-一张图串讲dpsk-math-v2的十几种强化学习提分思路",
+        
+          title: "一张图串讲dpsk-math-v2的十几种强化学习提分思路",
+        
+        description: "一张图串讲dpsk-math-v2的十几种强化学习提分思路",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/RL-Tricks-from-dpsk-math-v2-zh/";
+          
+        },
+      },{id: "post-llm强化学习中kl正则到底能不能去掉",
         
           title: "LLM强化学习中KL正则到底能不能去掉？",
         
