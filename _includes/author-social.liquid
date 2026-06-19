@@ -1,0 +1,17 @@
+{% assign zhihu_url = include.zhihu_url | default: page.zhihu_url %}
+{% assign wechat_url = include.wechat_url | default: page.wechat_url %}
+
+{% if zhihu_url or wechat_url %}
+  <div class="post-links">
+    {% if zhihu_url %}
+      <a href="{{ zhihu_url }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-zhihu"></i> 知乎
+      </a>
+    {% endif %}
+    {% if wechat_url %}
+      <a href="{{ wechat_url }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-weixin"></i> 微信
+      </a>
+    {% endif %}
+  </div>
+{% endif %}
