@@ -4,6 +4,8 @@ title: LLM强化学习中KL正则到底能不能去掉？
 date: 2026-03-10 23:01:00
 description: LLM强化学习中KL正则到底能不能去掉？
 categories: reinforcement-learning
+zhihu_url: https://zhuanlan.zhihu.com/p/2015433459510825079
+wechat_url: https://mp.weixin.qq.com/s/_Wu6G3XaLiveiv6f5bD1AQ
 ---
 
 

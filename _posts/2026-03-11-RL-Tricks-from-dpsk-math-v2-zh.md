@@ -4,6 +4,8 @@ title: 一张图串讲dpsk-math-v2的十几种强化学习提分思路
 date: 2026-03-12 23:01:00
 description: 一张图串讲dpsk-math-v2的十几种强化学习提分思路
 categories: reinforcement-learning
+zhihu_url: https://zhuanlan.zhihu.com/p/2017361964771329482
+wechat_url: https://mp.weixin.qq.com/s/iyuGgis8tNvu1xQKVftfyw
 ---
 
 

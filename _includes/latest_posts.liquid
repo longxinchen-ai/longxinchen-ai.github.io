@@ -37,6 +37,20 @@
               {% else %}
                 <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
               {% endif %}
+              {% if item.zhihu_url or item.wechat_url %}
+                <span class="post-links-inline">
+                  {% if item.zhihu_url %}
+                    <a href="{{ item.zhihu_url }}" target="_blank" rel="noopener noreferrer" title="知乎">
+                      <i class="fa-brands fa-zhihu"></i>
+                    </a>
+                  {% endif %}
+                  {% if item.wechat_url %}
+                    <a href="{{ item.wechat_url }}" target="_blank" rel="noopener noreferrer" title="微信公众号">
+                      <i class="fa-brands fa-weixin"></i>
+                    </a>
+                  {% endif %}
+                </span>
+              {% endif %}
             </td>
           </tr>
         {% endfor %}

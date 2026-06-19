@@ -4,6 +4,8 @@ title: 一图串讲GRPO十几种主流变体算法
 date: 2026-02-10 21:01:00
 description: 一图串讲GRPO十几种主流变体算法
 categories: reinforcement-learning
+zhihu_url: https://zhuanlan.zhihu.com/p/2004909108839593660
+wechat_url: https://mp.weixin.qq.com/s/QQ0oaPEsLil_cC3IgGxl7g
 ---
 
 
